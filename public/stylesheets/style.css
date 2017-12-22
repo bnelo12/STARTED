@@ -1,8 +1,32 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html {
+    height: 100%;
 }
 
-a {
-  color: #00B7FF;
+body {
+    background-color: #e4dfda;
+}
+
+.register-button {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: block;
+    width: 450px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.main-image {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#event-countdown {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 620px;
 }
