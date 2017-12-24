@@ -1,8 +1,18 @@
 extends layout
 
 block content
-    <div class="container" style="height: 100%">
-        <img class="main-image" src="/images/main_logo.png"/>
-        <button type="button" class="btn btn-primary register-button">Register Now</button>
-        <div id="event-countdown"></div>
-    </div>    
+    <div class="main-scene">
+        <div class="container" style="height: 100%; align-items: center; vertical-align: middle;">
+            <div class="h-100 row align-items-center">
+                <svg id="loading-circle">
+                    <circle class="outer" id="loading-circle-outer" cx="250" cy="250" r="200" fill="none", stroke="#074f56" stroke-dasharray="1256" stroke-dashoffset="1256"/>
+                </svg>
+                <div class="loading-icon">
+                    <img class="loading-image" src="/images/main_logo_no_text.png"/>
+                    <img class="event-name" src="/images/main_logo_text_only.png"/>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary register-button">Register Now</button>
+            <div id="event-countdown" style="display: none"></div>
+        </div>    
+    </div>
