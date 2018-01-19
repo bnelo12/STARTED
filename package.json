@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "clean": "rm -rf ./static",
+    "setup": "npm run clean && mkdir -p ./static",
+    "start": "node ./bin/www",
+    "build": "npm run setup && pug views/index.pug --out static/ && cp -r public/* static/"
   },
   "dependencies": {
     "body-parser": "~1.15.2",

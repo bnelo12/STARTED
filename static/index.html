@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"></link>
+<link rel="stylesheet" href="stylesheets/style.css"></link>
+<link rel="stylesheet" href="stylesheets/flipclock.css"></link>
+</head>
+<body>
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="javascripts/velocity.min.js"></script>
+<script src="javascripts/jquery.countdown.min.js"></script>
+<script src="javascripts/flipclock.min.js"></script>
+<script src="javascripts/main.js"></script>
+</body><div class="main-scene">
+<!-- Landing Page -->
+<div class="container" id="page-intro" style="height: 100%; align-items: center; vertical-align: middle;">
+<div class="h-100 row align-items-center">
+<svg id="loading-circle">
+<circle class="outer" id="loading-circle-outer" cx="250" cy="250" r="200" fill="none", stroke="#074f56" stroke-dasharray="1256" stroke-dashoffset="1256"/>
+</svg>
+<div class="loading-icon">
+<img class="loading-image" src="images/main_logo_no_text.png"/>
+<img class="event-name" src="images/main_logo_text_only.png"/>
+</div>
+<div class="center-box">
+<div id="event-countdown"></div>
+<button type="button" class="btn btn-primary" id="register-button">Register Now</button>
+</div>
+</div>
+</div>
+<!-- Menu Bar -->
+<div class="container-fluid paper" id="menu-bar">
+<nav class="navbar center navbar-toggleable-md navbar-light bg-faded" id="menu-bar">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto mx-auto">
+<li class="nav-item">
+<a class="nav-link menu-bar-link" href="#">WHAT IS START|ED?<span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link menu-bar-link" href="#">EVENT INFO</a>
+</li>
+<li class="nav-item">
+<a class="nav-link menu-bar-link" href="#">SCHEDULE</a>
+</li>
+<li class="nav-item">
+<a class="nav-link menu-bar-link" href="#">TICKETS</a>
+</li>
+<li class="nav-item">
+<a class="nav-link menu-bar-link" href="#">MERCHANDISE</a>
+</li>
+<li class="nav-item">
+<a class="nav-link menu-bar-link" href="#">GOT QUESTIONS?</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<!-- Who-Are-We Page -->
+<div class="container-fluid" id="who-are-we-page">
+<div class="container">
+<h3 id="who-are-we-title">WHAT IS START|ED?</h3>
+<div id="who-are-we-info">
+<p class="blue center">Is it not such a millennial ideal to not work a 9 to 5 hour job, staring into space at an office desk for a big faceless corporation?
+</p>
+<p class="blue center">Presenting START|ED, the first student-led event to prepare fellow university students to the life and culture of working at a start-up. Working together with local and international start-ups, incubators, START|ED is the student opportunity to connect and understand life after.
+</p>
+<p class="blue center">A conjoined team of students from two of Edinburgh’s universities, the University of Edinburgh and Heriot-Watt University, we hope to create START|ED as an event to cater and prepare fellow students with the skills and confidence to start their future professional careers in startups.
+</p>
+</div>
+</div>
+</div>
+<!-- The Venue -->
+<div class="container-fluid paper" id="venue-page">
+<div class="container" style="height: 100%">
+<h3 class="blue center">EVENT INFO</h3>
+<h4 class="white center">THE CAVES, EDINBURGH</h4>
+<h4 class="white center">WEDNESDAY, FEBRUARY 28</h4>
+<h4 class="white center">13.00 - 18.00</h4>
+</div>
+</div>
+<!-- Ticket Page -->
+<div class="container-fluid" id="ticket-page">
+<div class="container" style="height: 100%">
+<h3 class="blue center">TICKETS</h3>
+</div>
+</div>
+<!-- Questions Page -->
+<div class="container-fluid" id="questions-page">
+<div class="container" style="height: 100%">
+<h3 class="blue center">GOT QUESTIONS?</h3>
+<p class="blue center">If you have got any enquiries about START|ED and want to get in touch, don't hesitate to contact us at:
+</p>
+<p class="blue center"><a href="mailto:info@start.ed?subject=STARTED%20Question">info@start.ed</a>
+</p>
+</div>
+</div></html>
