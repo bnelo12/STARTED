@@ -85,7 +85,7 @@ body {
 
 #menu-bar {
     background-color: #e4572e;
-    z-index: 2;
+    z-index: 4;
     min-height: 70px;
 }
 
