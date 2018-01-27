@@ -8,15 +8,17 @@ $('document').ready(function() {
             $('#menu-bar').css({position: 'absolute', top: ($(window).height() - 70), width: ($(window).width())});
         }
     });
+    $('#clock').countdown('2018/2/28 13:00:00')
+        .on('update.countdown', function(event) {
+            $(this).html(event.strftime(''
+                + '<div class="time-box"><div class="time">%D</div><div class="time-label">days</div></div>'
+                + '<div class="time-box"><div class="time">%H</div><div class="time-label">hours</div></div>'
+                + '<div class="time-box"><div class="time">%M</div><div class="time-label">mins</div></div>'
+                + '<div class="time-box"><div class="time">%S</div><div class="time-label">secs</div></div>'));
+
+        });
 });
 
 var playIntroAnimation = function() {
-    var eventDate = new Date(2018, 1, 13, 0, 0, 0).getTime();
-
-    var clock = new FlipClock($('#event-countdown'), (eventDate - Date.now())/1000, {
-        clockFace: 'DailyCounter',
-        countdown: true
-    });
-
     $('.main-scene').velocity("slideDown", { duration: 1000});
 };
