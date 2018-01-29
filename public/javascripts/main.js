@@ -17,6 +17,13 @@ $('document').ready(function() {
                 + '<div class="time-box"><div class="time">%S</div><div class="time-label">secs</div></div>'));
 
         });
+    $(document).on('click', '.nav-link', function(event){
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: ($( $.attr(this, 'href') ).offset().top - 70)
+        }, 500);
+    });
 });
 
 var playIntroAnimation = function() {
