@@ -24,6 +24,13 @@ $('document').ready(function() {
             scrollTop: ($( $.attr(this, 'href') ).offset().top - 70)
         }, 500);
     });
+    window.onresize = function(event) {
+        if($(window).scrollTop() > $(window).height() - 70) {
+            $('#menu-bar').css({position: 'fixed', top: "0px", backgroundColor: "rgba(52, 58, 64, 0.8) !important"});
+        } else {
+            $('#menu-bar').css({position: 'absolute', top: ($(window).height() - 70), width: ($(window).width())});
+        }
+    };
 });
 
 var playIntroAnimation = function() {

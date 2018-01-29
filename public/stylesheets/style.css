@@ -43,7 +43,7 @@ body {
     text-align: center;
     display: block;
     margin: auto;
-    width: 15%;
+    max-height: 40vh;
 
 }
 
@@ -51,10 +51,12 @@ body {
     text-align: center;
     display: block;
     margin: auto;
+    padding-top: 30px; 
+    
 }
 
 .event-name {
-    width: 30%;
+    max-height: 10vh;
     text-align: center;
     margin-top: 20px;
 }
@@ -82,9 +84,11 @@ body {
     margin: auto;
     margin-top: 0;
     margin-bottom: 0;
+    display: block;
 }
 
 .time-box {
+    max-height: 10vh;
     margin-right: 5%; 
     margin-left: 5%; 
     width: 100px;
@@ -96,7 +100,7 @@ body {
 .time {
     color: white;
     font-family: "Kollektif Bold";
-    font-size: 50px;
+    font-size: 10vh;
     text-align: center;
     margin: auto;
 }
@@ -104,6 +108,7 @@ body {
 .time-label {
     color: #e4572e;
     font-family: "Kollektif Bold";
+    font-size: 5vh;
 }
 
 .center-box {
@@ -251,3 +256,15 @@ p {
     margin-top: 20px;
     margin-bottom: 20px:  
 }
+
+@media screen and (min-height: 400px) {
+    .time {
+       font-size: 50px;
+    }
+    .time-label {
+        font-size: 20px;
+    }
+    .loading-icon {
+        padding-top: 10vh;
+    }
+  }
