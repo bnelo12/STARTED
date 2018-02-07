@@ -43,7 +43,7 @@ body {
     text-align: center;
     display: block;
     margin: auto;
-    width: 15%;
+    max-height: 40vh;
 
 }
 
@@ -51,10 +51,12 @@ body {
     text-align: center;
     display: block;
     margin: auto;
+    padding-top: 30px; 
+    
 }
 
 .event-name {
-    width: 30%;
+    max-height: 10vh;
     text-align: center;
     margin-top: 20px;
 }
@@ -77,6 +79,38 @@ body {
     transform: rotate(-90deg);
 }
 
+#clock {
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
+
+.time-box {
+    max-height: 10vh;
+    margin-right: 5%; 
+    margin-left: 5%; 
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+.time {
+    color: white;
+    font-family: "Kollektif Bold";
+    font-size: 10vh;
+    text-align: center;
+    margin: auto;
+}
+
+.time-label {
+    color: #e4572e;
+    font-family: "Kollektif Bold";
+    font-size: 5vh;
+}
+
 .center-box {
     text-align: center;
     margin: auto;
@@ -85,7 +119,7 @@ body {
 
 #menu-bar {
     background-color: #e4572e;
-    z-index: 2;
+    z-index: 4;
     min-height: 70px;
 }
 
@@ -99,22 +133,31 @@ body {
 }
 
 #who-are-we-page {
+    overflow: auto;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: #e4dfda;
+    background-color: white;
+}
+
+#who-are-we-image {
+    float: right;
+    width: 30%;
+    position: relative;
+    left: 15px;
+    overflow: hidden;
+    margin-top: 90px;
 }
 
 #who-are-we-title {
     text-align: center;
-    color: white;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 #who-are-we-info {
-    text-align: center;
-    margin: auto;
-    width: 90%;
+    text-align: left;
+    float: left;
+    width: 70%;
 }
 
 .paper {
@@ -140,13 +183,13 @@ body {
 }
 
 #ticket-page {
-    background-color: #e4dfda;
+    background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
 #questions-page {
-    background-color: #e4dfda;
+    background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -160,6 +203,24 @@ body {
 #ticketing-page {
     height: 500px;
     background-color: #ffbf00;
+}
+
+#brands-page {
+    background-color: #074f57;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.slide-image {
+    background-color: white;
+    display: inline-block !important;
+    height: 100%;
+    width: auto;
+}
+
+.fanduel {
+    height: 70%;
+    width: auto;
 }
 
 .white {
@@ -178,6 +239,14 @@ body {
     color: #074f57;
 }
 
+.yellow {
+    color: #ffbf00 !important;
+}
+
+.orange {
+    color: #e4572e;
+}
+
 h3 {
     font-family: 'Lato Bold';
     font-size: 30px;
@@ -186,6 +255,14 @@ h3 {
     padding-left: 1rem !important;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Kollektif Bold';
+    font-size: 35px;
+    letter-spacing: .2em;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
 }
 
 h4 {
@@ -205,5 +282,37 @@ p {
     padding-left: 1rem !important;
     width: 90%;
     margin-top: 20px;
-    margin-bottom: 20px:  
+    margin-bottom: 20px;
+}
+
+@media screen and (min-height: 400px) {
+    .time {
+       font-size: 50px;
+    }
+    .time-label {
+        font-size: 20px;
+    }
+    .loading-icon {
+        padding-top: 10vh;
+    }
+}
+
+.slick-track {
+    height: 200px;
+}
+
+.slick-slide {
+    text-align: center;
+}
+
+.slick-slide::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.slick-slide img {
+    vertical-align: middle;
+    display: inline-block;
 }
