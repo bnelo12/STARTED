@@ -210,6 +210,67 @@ body {
     background-color: #ffbf00;
 }
 
+#schedule-page {
+    background-color: #e4dfda;
+}
+
+
+.schedule-background {
+    border: 8px solid white;
+    width: 166px;
+    height: 166px;
+    border-radius: 200px;
+    background-color: white;
+    position: relative;
+    top: -190px;
+    text-align: center;
+    margin: auto;
+}
+
+.schedule-background-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    background-color: white;
+    opacity: .3;
+    position: absolute;
+}
+
+.schedule-time {
+    color: #e4572e;
+    position: absolute;
+    font-family: 'Lato Bold';
+    font-size: 25px;
+    text-align: center;
+    width: 150px;
+    top: 20px;
+    z-index: 2;
+}
+
+.schedule-info {
+    color: #074f57;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    text-align: center;
+    font-family: 'Lato Bold';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.line1 {
+    top: 60px;
+}
+
+.line2 {
+    top: 80px;
+}
+
+.line3 {
+    top: 100px;
+}
+
+
 #brands-page {
     background-color: #074f57;
     padding-top: 20px;
