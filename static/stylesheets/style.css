@@ -284,10 +284,6 @@ body {
     width: auto;
 }
 
-.fanduel {
-    height: 70%;
-    width: auto;
-}
 
 .white {
     color: white; 
@@ -387,4 +383,11 @@ p {
 .slick-slide img {
     vertical-align: middle;
     display: inline-block;
+}
+
+
+
+.fanduel {
+    height: 70%;
+    width: auto;
 }
