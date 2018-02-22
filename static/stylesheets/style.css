@@ -160,9 +160,13 @@ body {
 }
 
 #who-are-we-info {
-    text-align: left;
-    float: left;
-    width: 70%;
+     text-align: left;
+     float: left;
+     width: 70%;
+     color: #e4572e;
+ }
+#who-are-we-info p {
+    font-size: 18px;
 }
 
 .paper {
@@ -361,7 +365,7 @@ p {
 
 @media screen and (max-width: 992px) {
     #who-are-we-info {
-        width: 100%;
+        width: 100%
     }
 }
 
