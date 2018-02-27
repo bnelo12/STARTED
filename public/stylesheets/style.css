@@ -427,6 +427,8 @@ timelines
     width: 400px;
     padding: 15px;
     background: #ffbf00;
+    text-align: center;
+
 }
 
 .timeline ul li div::before {
@@ -456,4 +458,10 @@ timelines
     right: -15px;
     border-width: 8px 0 8px 16px;
     border-color: transparent transparent transparent #ffbf00;
+}
+
+.timeline-time {
+    font-size: x-large;
+    color: white;
+
 }
