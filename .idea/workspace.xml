@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66832165-cbc1-4591-a60c-65638a211df2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/static/index.html" afterPath="$PROJECT_DIR$/static/index.html" />
       <change beforePath="$PROJECT_DIR$/views/index.pug" afterPath="$PROJECT_DIR$/views/index.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="142" column="180" lean-forward="false" selection-start-line="142" selection-start-column="180" selection-end-line="142" selection-end-column="180" />
+            <state relative-caret-position="306">
+              <caret line="68" column="168" lean-forward="false" selection-start-line="68" selection-start-column="168" selection-end-line="68" selection-end-column="168" />
               <folding />
             </state>
           </provider>
@@ -189,12 +188,12 @@
       <workItem from="1519409746629" duration="818000" />
       <workItem from="1519597626452" duration="4387000" />
       <workItem from="1519737215860" duration="885000" />
-      <workItem from="1519772334104" duration="823000" />
+      <workItem from="1519772334104" duration="1377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18658000" />
+    <option name="totallyTimeSpent" value="19212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -576,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="142" column="180" lean-forward="false" selection-start-line="142" selection-start-column="180" selection-end-line="142" selection-end-column="180" />
+        <state relative-caret-position="306">
+          <caret line="68" column="168" lean-forward="false" selection-start-line="68" selection-start-column="168" selection-end-line="68" selection-end-column="168" />
           <folding />
         </state>
       </provider>
